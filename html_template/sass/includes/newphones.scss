@@ -1,0 +1,38 @@
+#newphones {
+    .owl-carousel .item .product a {
+        overflow: hidden;
+    }
+
+    .owl-carousel .item .product img {
+        transition: transform .5s ease;
+    }
+
+    .owl-carousel .item .product img:hover {
+        transform: scale(1.1);
+    }
+
+    .owl-theme .owl-nav button {
+        position: absolute;
+        top: 30%;
+    }
+
+    .owl-carousel .owl-nav button.owl-prev {
+        left: 0;
+    }
+    .owl-carousel .owl-nav button.owl-prev span {
+        color: $color-primary;
+        font-size: 35px;
+        padding: 0 1rem;
+        margin-left: -4rem;
+    }
+
+    .owl-carousel .owl-nav button.owl-next {
+        right: 0;
+    }
+    .owl-carousel .owl-nav button.owl-next span {
+        color: $color-primary;
+        font-size: 35px;
+        padding: 0 1rem;
+        margin-right: -4rem;
+    }
+}
